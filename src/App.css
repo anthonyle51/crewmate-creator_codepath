@@ -1,0 +1,202 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: -30px;
+    margin-left: -50px;
+}
+
+.main {
+    width: 90vw;
+}
+
+.side-bar {
+    width: 200px;
+    display: flex;
+    flex-direction: column; 
+    /* border-right: 1px solid black; */
+    background-color: lightgray;
+    height: 100vh;
+}
+
+.side-item {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /* margin-right: 30px; */
+}
+
+h1 {
+    margin-top: 30vh;
+}
+
+#gallery-header {
+    margin-top: 20vh;
+}
+
+#detail-view-header {
+    margin-top: 0vh;
+}
+
+#edit-crewmate-header {
+    margin-top: 0vh;
+}
+
+label {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+#gallery-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: 50px 50px 50px 50px; */
+}
+
+.card {
+    width: 15vw;
+    margin: 50px 50px 50px 50px; 
+    padding: 10px 10px;
+    border: 10px solid white;
+    border-radius: 5px;
+}
+
+.card.fire {
+    background-color: rgb(240, 128, 48); /* Orange-red */
+}
+.card.water {
+    background-color: rgb(104, 144, 240); /* Light blue */
+}
+.card.grass {
+    background-color: rgb(120, 200, 80); /* Green */
+}
+.card.electric {
+    background-color: rgb(248, 208, 48); /* Yellow */
+}
+.card.ice {
+    background-color: rgb(152, 216, 216); /* Light cyan */
+}
+.card.poison {
+    background-color: rgb(160, 64, 160); /* Purple */
+}
+.card.ground {
+    background-color: rgb(224, 192, 104); /* Pale brown */
+}
+.card.rock {
+    background-color: rgb(184, 160, 56); /* Dark yellow */
+}
+.card.fairy {
+    background-color: rgb(238, 153, 172); /* Pale pink */
+}
+.card.dark {
+    background-color: rgb(112, 88, 72); /* Dark gray-brown */
+}
+.card.normal {
+    background-color: rgb(168, 168, 120); /* Khaki */
+}
+.card.fighting {
+    background-color: rgb(192, 48, 40); /* Deep red */
+}
+.card.dragon {
+    background-color: rgb(112, 56, 248); /* Royal blue */
+}
+.card.steel {
+    background-color: rgb(184, 184, 208); /* Light gray */
+}
+.card.ghost {
+    background-color: rgb(163, 154, 235); /* Pale purple */
+}
+.card.bug {
+    background-color: rgb(168, 184, 32); /* Olive green */
+}
+.card.flying {
+    background-color: rgb(168, 144, 240); /* Soft purple */
+}
+.card.psychic {
+    background-color: rgb(248, 88, 136); /* Bright pink */
+}
+
+#normal {
+    border-color: rgb(168, 168, 120);
+}
+
+#fire {
+    border-color: rgb(240, 128, 48);
+}
+
+#water {
+    border-color: rgb(104, 144, 240);
+}
+
+#electric {
+    border-color: rgb(248, 208, 48);
+}
+
+#grass {
+    border-color: rgb(120, 200, 80);
+}
+
+#ice {
+    border-color: rgb(152, 216, 216);
+}
+
+#fighting {
+    border-color: rgb(192, 48, 40);
+}
+
+#poison {
+    border-color: rgb(160, 64, 160);
+}
+
+#ground {
+    border-color: rgb(224, 192, 104);
+}
+
+#flying {
+    border-color: rgb(168, 144, 240);
+}
+
+#psychic {
+    border-color: rgb(248, 88, 136);
+}
+
+#bug {
+    border-color: rgb(168, 184, 32);
+}
+
+#rock {
+    border-color: rgb(184, 160, 56);
+}
+
+#ghost {
+    border-color: rgb(112, 88, 152);
+}
+
+#dragon {
+    border-color: rgb(112, 56, 248);
+}
+
+#dark {
+    border-color: rgb(112, 88, 72);
+}
+
+#steel {
+    border-color: rgb(184, 184, 208);
+}
+
+#fairy {
+    border-color: rgb(238, 153, 172);
+}
+    
